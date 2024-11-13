@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - devops
 Creation Date: 2024-11-10, 14:50
-Last Date: 2024-11-12T14:20:09+08:00
+Last Date: 2024-11-12T14:41:30+08:00
 References: 
 draft: 
 description: 3 Steps to Set Up Prometheus on Your macOS Laptop
@@ -27,7 +27,7 @@ description: 3 Steps to Set Up Prometheus on Your macOS Laptop
 - Start Node Exporter as a background service: `brew services start node_exporter`. Node Exporter exposes metrics on port `9100`: `http://localhost:9100/metrics`
 
 ### 2.1. Configure Prometheus to Scrape Node Exporter
-- Edit your Prometheus configuration file and add the following scrape configuration under `scrape_configs`:
+- Edit your [[Prometheus#Prometheus Configuration File|Prometheus configuration file]] and add the following scrape configuration under `scrape_configs`:
 
 ```yaml
 scrape_configs:

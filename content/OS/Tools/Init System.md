@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - OS
 Creation Date: 2023-10-23T15:26:00
-Last Date: 2024-04-13T18:16:08+08:00
+Last Date: 2024-11-11T10:41:43+08:00
 References: 
 ---
 ## Abstract
@@ -14,7 +14,7 @@ References:
 - A [[Process (进程)]] that runs in the background
 - Most important [[Process (进程)]] with [[Process IDentifier (PID)]] **1**
 - Manages the **lifecycle** of **all services** that run in the background
-- Below shows a list of common init systems. Basically [[Systemd]] for [[Linux Kernel]], **Launchd** for [[MacOS]] and **busybox** for for [[OS#Embedded OS]] like [[OpenWRT]]
+- Below shows a list of common init systems. Basically [[Systemd]] for [[Linux Kernel]], [[Launchd]] for [[MacOS]] and **busybox** for for [[OS#Embedded OS]] like [[OpenWRT]]
 <div class="onecompilerCode-wrapper">
 <iframe
  class="onecompilerCode"
