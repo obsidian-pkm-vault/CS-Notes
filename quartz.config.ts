@@ -20,6 +20,7 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "Templates", ".obsidian", "Personal", "Archive", "Omnivore", "**/*.excalidraw.md", "rawNotes"],
     defaultDateType: "modified",
     locale: "en-US",
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
