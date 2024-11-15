@@ -6,7 +6,7 @@ Author Profile:
 tags:
   - devops
 Creation Date: 2024-11-06, 14:39
-Last Date: 2024-11-12T13:48:28+08:00
+Last Date: 2024-11-15T12:28:51+08:00
 References: 
 draft: 
 description: "Prometheus: A Deep Dive"
@@ -60,7 +60,7 @@ scrape_configs:
 
 ### Prometheus Metric Retrieval
 - The Prometheus server has a **metrics retrieval** component that **pulls data** from different **targets**, which are essentially various processes. This data consists of **units** such as CPU status, exception count, and request count. These units are considered [[#Prometheus Metric]] when monitored by Prometheus. The metrics are then stored in the [[#Prometheus Data Storage|time-series database (TSDB)]]
-- Prometheus also includes an HTTP server component that accepts PromQL queries, enabling integration with visualisation tools like Grafana
+- Prometheus also includes an HTTP server component that accepts [[PromQL|PromQL queries]], enabling integration with visualisation tools like Grafana
 
 >[!important] A pulling system
 > Common monitoring services like AWS CloudWatch and [[Datadog]] use a **pushing** approach, where all processes push metrics to a centralized collection platform. This can create a **high load of network traffic**, and monitoring can become a bottleneck. Additionally, we need to install a daemon on all processes to push metrics, while Prometheus only needs a **scraping endpoint**. The pulling approach is also a convenient way to check if a process is up.
@@ -100,9 +100,7 @@ scrape_configs:
 > 
 > To control how long Prometheus retains data, use the **`--storage.tsdb.retention.time`** flag. This flag accepts a duration value (e.g., **`15d`** for 15 days).
 
-### Prometheus PromQL
-- The query format used to obtain data from the [[#Prometheus Data Storage]], used by data visulisation tool like Grafana to create nice dashboards
-- This is the **query language** used to retrieve data from [[#Prometheus Data Storage|Prometheus's time series database]]. Visualisation tools like **Grafana use PromQL** to create informative dashboards
+
 
 %% Prometheus is the **de facto standard** for monitoring Kubernetes clusters. It easily integrates with Kubernetes by discovering services dynamically through Kubernetes' API, which enables it to monitor containerized applications without needing manual configuration of targets. %%
 
