@@ -5,7 +5,7 @@ Author Profile:
   - https://linkedin.com/in/xinyang-yu
 tags: 
 Creation Date: 2023-11-30T16:47:00
-Last Date: 2024-11-12T14:21:15+08:00
+Last Date: 2024-11-15T12:13:08+08:00
 References: 
 title: Macos setup for software engineer
 ---
@@ -195,7 +195,15 @@ ssid="`$airport -I | awk '/ SSID/ {print substr($0, index($0, $2))}'`"
 # Add in the following
 ssid=`networksetup -getairportnetwork en0 | awk -F": " '{print $2}'`
 ``` 
+- [ ] Change [[MAC Address]]
+```bash
+# Generate a random MAC address
+openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'
 
+# Assign new MAC address to a network interface card
+# MAC address reverts to the original after rebooting
+sudo ifconfig <interface_name> ether <new_MAC_address>
+```
 
 >[!tool]+ Some other useful tools
 > - [ ] [[Cloudflare#Abstract|Cloudflare CLi]]
