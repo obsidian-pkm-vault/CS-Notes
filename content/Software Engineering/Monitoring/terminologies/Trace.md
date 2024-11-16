@@ -6,20 +6,21 @@ Author Profile:
 tags:
   - software_engineering
 Creation Date: 2023-10-17T09:41:00
-Last Date: 2024-01-02T13:06:54+08:00
+Last Date: 2024-11-16T16:50:53+08:00
 References: 
+description: Information regarding the resources used by a request at different part of the system.
 ---
 ## Abstract
 ---
-- An entity used to track *time spent* by an app processing a request & the *status* of the request
-- Made up one or more [[Span]]
-- Identify the [[Span]] for [[Latency Number |Latency]], then we can carry on with optimisation
+- Traces help us track the **flow of requests** through various services and components of the system
+- A trace is made up one or more [[Span]]
+- Once we identify the span for latency, we can proceed with optimisation
+- We can use tools like [[Datadog APM]], Tempo and Zipkin etc
 
 
 ## Terminologies
 ---
-### Metrics
-- Captures request counts, error counts, and latency measures of requests
+
 ### Runtime Metrics
 - Allow to view [[Address Space#Heap Segment]], non-heap memory usage and [[Garbage Collector]] activity of the app
 - [[Datadog]] can have this enabled with `export DD_RUNTIME_METRICS_ENABLED=true` 
