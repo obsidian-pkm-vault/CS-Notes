@@ -7,14 +7,14 @@ tags:
   - system_design
   - devops
 Creation Date: 2024-01-02, 13:05
-Last Date: 2024-11-16T17:09:02+08:00
+Last Date: 2024-11-16T23:41:07+08:00
 References: 
 draft: 
 description: Getting alerted when something bad is about to happen
 ---
 ## Abstract
 ---
-- This system tracks overall health by **observing predefined metrics** and **alerts** you when something goes wrong **based on established thresholds**, preventing issues before they escalate
+- This system tracks overall health by **observing predefined [[Observability#Metric|metrics]]** and **alerts** you when something goes wrong **based on established thresholds**, preventing issues before they escalate
 
 
 ## 4 Golden Monitoring Signals
@@ -26,7 +26,7 @@ description: Getting alerted when something bad is about to happen
 
 
 >[!success] Data points for optimisation
-> These data points allow us to easily **evaluate overall performance** and **application health**, enabling informed decisions about **optimisation**, **scaling**, and **enhancement**.
+> These data points allow us to easily **evaluate overall performance** and **application health**, enabling informed decisions about **optimisation** and **scaling**.
 
 
 ## References
