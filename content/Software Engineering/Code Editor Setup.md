@@ -6,12 +6,13 @@ Author Profile:
 tags:
   - software_engineering
 Creation Date: 2024-01-12, 00:12
-Last Date: 2024-03-29T19:35:35+08:00
+Last Date: 2024-11-19T15:28:21+08:00
 References: 
 draft: 
 sr-due: 2024-01-30
 sr-interval: 3
 sr-ease: 225
+description: My code editor setup for Vim, VSC, IntelliJ, Zed and NeoVim
 ---
 ## Abstract
 ---
@@ -88,4 +89,9 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 ---
 - [IntelliJ Community Code Editor](https://www.jetbrains.com/idea/download/?fromIDE=&section=mac)
 - Install third-party libraries 
-![[install_3rd_party_libraries_inteliJ.png]]
+![[install_3rd_party_libraries_inteliJ.png|600]]
+
+>[!tool] Handy shortcuts
+> - Press `Shift` twice to open "Search Everywhere" dialog.
+> - Press `Cmd+2` to manage bookmarks
+> - Press `Fn+3` to bookmark files or codes
