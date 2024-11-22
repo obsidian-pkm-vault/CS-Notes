@@ -10,10 +10,10 @@ tags:
   - macos
   - ngrok
 Creation Date: 2024-02-23, 23:49
-Last Date: 2024-04-24T01:53:03+08:00
+Last Date: 2024-11-22T16:39:27+08:00
 References: 
 draft: 
-description: 
+description: Secure tunneling allows you to securely access services running on your local machine from the public internet without needing a public IP address or port forwarding, using tools like Cloudflare Tunnel or Ngrok. This is achieved by creating an encrypted connection between your local machine and a server in the public network, which acts as a reverse proxy and forwards traffic to your local service.
 ---
 ## Abstract
 ---

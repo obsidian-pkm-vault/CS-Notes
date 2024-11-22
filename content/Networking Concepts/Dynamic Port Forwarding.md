@@ -6,10 +6,10 @@ Author Profile:
 tags:
   - networking
 Creation Date: 2024-04-18, 23:01
-Last Date: 2024-05-02T00:12:28+08:00
+Last Date: 2024-11-22T16:40:16+08:00
 References: 
 draft: 
-description: Use SSH as 'VPN'
+description: Use SSH as a 'VPN'. SSH dynamic port forwarding allows you to bypass network restrictions by turning an SSH server into a SOCKS proxy. This lets your client machine access websites or services through an intermediate server, even if they are blocked by your local network firewall.
 ---
 ## Abstract
 ---

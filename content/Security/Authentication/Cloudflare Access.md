@@ -7,10 +7,10 @@ tags:
   - cloudflare
   - security
 Creation Date: 2024-02-29, 22:22
-Last Date: 2024-05-30T10:32:23+08:00
+Last Date: 2024-11-22T16:39:10+08:00
 References: 
 draft: 
-description: 
+description: Cloudflare Access is a security service that allows you to control access to your applications based on user identity, network, and device posture. It offers temporary authentication for users who need one-time access, requiring administrator approval, while also allowing you to define users with persistent access through policies.
 ---
 ## Abstract
 ---

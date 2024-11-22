@@ -6,10 +6,10 @@ Author Profile:
 tags:
   - networking
 Creation Date: 2024-10-02, 15:10
-Last Date: 2024-10-04T18:17:03+08:00
+Last Date: 2024-11-22T16:41:21+08:00
 References: 
 draft: 
-description: 
+description: Netfilter, the Linux kernel's packet processing system, allows you to manipulate network traffic using iptables. This can be used to implement kernel-level load balancing and reverse proxy functionality, potentially offering performance advantages over traditional software-based solutions.
 ---
 ## Abstract
 ---
